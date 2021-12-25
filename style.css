@@ -7,14 +7,14 @@ section{
     height: 800px;
 }
 .sec1{
-    background-color:black;
+    background-color:cornflowerblue;
 }
 .spangr{
-    color: greenyellow;
+    color: #d7d710;
 }
 .title1{
     font-size: 80px;
-    color: greenyellow;
+    color: #d7d710;
     text-align: center;
 }
 .logo{
@@ -23,7 +23,7 @@ section{
 }
 
 .sec2{
-    background-color: greenyellow;
+    background-color: #d7d710;
 }
 .title2{
     font-size: 60px;
@@ -32,14 +32,74 @@ section{
 .inf{
   display: flex;
 }
-.sec3{
-    display: flex;
-}
-.sec3_1{
+
+
+.section1{
+    position: relative;
+    width: 100%;
+    height: 100hv;
+    padding: 50px;
+    background-color: cornflowerblue;
+  }
+  .circle{
+    position: relative;
+    overflow: hidden;
+  }
+  .circle img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .circle .info{
     width: 50%;
-    background-color: greenyellow;
-}
-.sec3_2{
-    width: 50%;
-    background-color: black;
-}
+  }
+  .section1 .info h1{
+    margin-bottom: 10px;
+    font-size: 1cm;
+    /* text-align: center; */
+    font-family: 'Major Mono Display', monospace;
+  }
+  .section1 .info p{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    /* height: 400px; */
+    /* overflow: hidden; */
+  }
+  
+  .section1 .info button{
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 2px;
+    margin-top: 15px;
+    display: none;
+  }
+  
+  .circle.circle1{
+    width: 400px;
+    height: 400px;
+    float: left;
+    border-radius: 50%;
+    margin: 20px;
+    shape-outside: circle();
+  }
+  .circle.circle2{
+    width: 300px;
+    height: 300px;
+    float: right;
+    border-radius: 50%;
+    margin: 20px;
+    /* margin-right: 30px; */
+    shape-outside: circle();
+  }
+  .div1{
+      width: 50%;
+  }
+  .div2{
+      width: 50%;
+  }
+  
