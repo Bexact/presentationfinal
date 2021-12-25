@@ -38,7 +38,7 @@ section{
     position: relative;
     width: 100%;
     height: 100hv;
-    padding: 50px;
+    /* padding: 50px; */
     background-color: cornflowerblue;
   }
   .circle{
@@ -96,10 +96,29 @@ section{
     /* margin-right: 30px; */
     shape-outside: circle();
   }
+  .secteam{
+      background-color: black;
+  }
+  .infod{
+      display: flex;
+      background-color: #d7d710;
+  }
   .div1{
       width: 50%;
   }
   .div2{
       width: 50%;
   }
+  .secli{
+      display: contents;
+      color: #d7d710;
+  }
+  li{
+      display: contents;
+  }
+  .infod1{
+      display: flex;
+      background-color: black;
+  }
+
   
